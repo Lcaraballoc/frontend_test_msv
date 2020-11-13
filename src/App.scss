@@ -1,0 +1,17 @@
+$color-primary: #280a50;
+$color-secundary: #ff8c00;
+$font-light-color: white;
+$light-background: white;
+
+body{
+  margin: 0;
+  background-color: #280a50;
+}
+
+.app{
+  position: absolute;
+}
+
+input{
+  display: none;
+}
