@@ -1,5 +1,7 @@
 # MASIVCOMIC: Prueba tecnica frontend
 
+Aplicacion que se encarga de mostrar imagenes de comics de manera aleatoria y permite la calificacion de las mismas.
+
 ### Instalación
 
 1. Clonar la rama `Main` del proyecto
