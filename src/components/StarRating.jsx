@@ -8,13 +8,13 @@ const StarRating = () => {
 
   return (
     <div className="ratingContainer">
+      <h2>Calificacion:</h2>
       {stars.map(i => {
         const ratingValue = i + 1;
         return (
-          <label htmlFor="star">
+          <label>
             <input
               type="radio"
-              id="star"
               value={ratingValue}
               onClick={() => setRating(ratingValue)}
             />
@@ -24,7 +24,9 @@ const StarRating = () => {
                 ratingValue <= (hoverStar || rating) ? '#ffc107' : 'e4e6e9'
               }
               size={40}
-              onMouseEnter={() => setHover(ratingValue)}
+              onMouseEnter={() => {
+                setHover(ratingValue);
+              }}
               onMouseLeave={() => setHover(null)}
             />
           </label>

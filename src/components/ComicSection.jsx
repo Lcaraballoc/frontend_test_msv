@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import getRandomInt from '../Utils/getRandomInt';
+import StarRating from './StarRating';
+import Loading from './Loading';
+import './styles/ComicSection.scss';
 
 const ComicSection = () => {
   const [state, setState] = useState({
@@ -31,12 +34,21 @@ const ComicSection = () => {
   }, []);
 
   return (
-    <div className="Comic">
-      <div className="Comic__container">
-        <h1>{state.comic.title}</h1>
-        <figure>
-          <img src={state.comic.img} alt="" />
-        </figure>
+    <div className="comic">
+      <div className="comic__container">
+        <h1 className="comic__container__title">{state.comic.title}</h1>
+        {state.loading === true ? (
+          <Loading />
+        ) : (
+          <figure>
+            <img
+              className="comic__container__image"
+              src={state.comic.img}
+              alt=""
+            />
+          </figure>
+        )}
+        <StarRating />
       </div>
     </div>
   );

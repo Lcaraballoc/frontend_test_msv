@@ -1,7 +1,0 @@
-diff a/src/components/App.jsx b/src/components/App.jsx	(rejected hunks)
-@@ -2 +2 @@ import React from 'react';
--import StarRating from './StarRating.jsx'
-+import StarRating from './StarRating.jsx';
-@@ -5 +5 @@ import './styles/App.scss';
--const App = () => <StarRating/>;
-+const App = () => <StarRating />;

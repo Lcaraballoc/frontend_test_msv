@@ -1,0 +1,19 @@
+.comic__container {
+  width: 50%;
+  min-width: 500px;
+  margin: 0 auto 32px;
+  padding: 32px;
+  text-align: center;
+  background-color: white;;
+  border-radius: 32px;
+  &__title{
+    font-size: 42px;
+    font-family: 'Bangers', cursive;
+    color: darkorange;
+  }
+  &__image {
+    max-height: 80%;
+    max-width: 80%;
+  }
+}
+  

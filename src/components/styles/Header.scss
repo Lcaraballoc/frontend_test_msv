@@ -1,0 +1,28 @@
+.header__container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+  font-family: 'Bangers', cursive;
+  
+  &__logo{
+    height: 200px;
+  }
+
+  &__menu{
+    margin-right: 9%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a{
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+    &:hover{
+      color: darkorange;
+    }
+  }
+  
+}

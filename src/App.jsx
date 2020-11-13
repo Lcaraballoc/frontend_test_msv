@@ -1,6 +1,6 @@
 import React from 'react';
-import StarRating from './ComicSection';
-import './styles/App.scss';
+import StarRating from './pages/Home';
+import './App.scss';
 
 const App = () => <StarRating />;
 
