@@ -1,6 +1,7 @@
 import React from 'react';
+import StarRating from './StarRating';
 import './styles/App.scss';
 
-const App = () => <h1>Hello React!</h1>;
+const App = () => <StarRating />;
 
 export default App;
