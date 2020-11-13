@@ -1,5 +1,7 @@
+@import '../../App.scss';
+
 .loader {
-  color: orange;
+  color: $color-secundary;
   font-size: 90px;
   text-indent: -9999em;
   overflow: hidden;

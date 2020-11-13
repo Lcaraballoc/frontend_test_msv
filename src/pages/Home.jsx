@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <ComicSection />
       <img className="backgroundImg" src={BackgroundImage} alt="" />
-      <div className="backgroundSquare"> </div>
+      <img className="backgroundImg2" src={BackgroundImage} alt="" />
     </>
   );
 };
